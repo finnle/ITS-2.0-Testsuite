@@ -15,7 +15,7 @@ _:node17rgq2aklx1 a itsrdf:LocQualityIssue ;
 	itsrdf:locQualityIssueType "typographical" .
 
 <http://example.com/exampledoc.html#char=0,9> nif:referenceContext <http://example.com/exampledoc.html#char=0,176> ;
-	nif:convertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/span%5B1%5D)> .
+	nif:wasConvertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/span%5B1%5D)> .
 
 <http://example.com/exampledoc.html#char=111,124> a nif:RFC5147String ;
 	
@@ -25,4 +25,4 @@ _:node17rgq2aklx2 a itsrdf:LocQualityIssue ;
 	itsrdf:locQualityIssueType "misspelling" .
 
 <http://example.com/exampledoc.html#char=111,124> nif:referenceContext <http://example.com/exampledoc.html#char=0,176> ;
-	nif:convertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/span%5B2%5D)> .
+	nif:wasConvertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/span%5B2%5D)> .

@@ -17,7 +17,7 @@ _:node17rgq48olx1 a itsrdf:LocQualityIssue ;
 	itsrdf:locQualityIssueProfileRef <http://example.org/qaMovel/v1> .
 
 <http://example.com/exampledoc.html#char=2,11> nif:referenceContext <http://example.com/exampledoc.html#char=0,180> ;
-	nif:convertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/span%5B1%5D)> .
+	nif:wasConvertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/span%5B1%5D)> .
 
 <http://example.com/exampledoc.html#char=114,127> a nif:RFC5147String ;
 	
@@ -29,4 +29,4 @@ _:node17rgq48olx2 a itsrdf:LocQualityIssue ;
 	itsrdf:locQualityIssueProfileRef <http://example.org/qaMovel/v1> .
 
 <http://example.com/exampledoc.html#char=114,127> nif:referenceContext <http://example.com/exampledoc.html#char=0,180> ;
-	nif:convertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/span%5B2%5D)> .
+	nif:wasConvertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/span%5B2%5D)> .

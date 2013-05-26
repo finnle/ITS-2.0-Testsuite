@@ -18,4 +18,4 @@ _:node17rgq4krrx1 a itsrdf:LocQualityIssue ;
 	itsrdf:locQualityIssueEnabled "yes" .
 
 <http://example.com/exampledoc.html#char=19,23> nif:referenceContext <http://example.com/exampledoc.html#char=0,34> ;
-	nif:convertedFrom <http://example.com/exampledoc.html#xpath(/doc/file%5B1%5D/unit%5B1%5D/segment%5B1%5D/target%5B1%5D/mrk%5B1%5D)> .
+	nif:wasConvertedFrom <http://example.com/exampledoc.html#xpath(/doc/file%5B1%5D/unit%5B1%5D/segment%5B1%5D/target%5B1%5D/mrk%5B1%5D)> .

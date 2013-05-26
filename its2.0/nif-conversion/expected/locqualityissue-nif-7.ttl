@@ -16,7 +16,7 @@ _:node17rgq33mqx1 a itsrdf:LocQualityIssue ;
 	itsrdf:locQualityIssueSeverity "50" .
 
 <http://example.com/exampledoc.html#char=0,9> nif:referenceContext <http://example.com/exampledoc.html#char=0,176> ;
-	nif:convertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/span%5B1%5D)> .
+	nif:wasConvertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/span%5B1%5D)> .
 
 <http://example.com/exampledoc.html#char=111,124> a nif:RFC5147String ;
 	
@@ -27,4 +27,4 @@ _:node17rgq33mqx2 a itsrdf:LocQualityIssue ;
 	itsrdf:locQualityIssueSeverity "75" .
 
 <http://example.com/exampledoc.html#char=111,124> nif:referenceContext <http://example.com/exampledoc.html#char=0,176> ;
-	nif:convertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/span%5B2%5D)> .
+	nif:wasConvertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/span%5B2%5D)> .
