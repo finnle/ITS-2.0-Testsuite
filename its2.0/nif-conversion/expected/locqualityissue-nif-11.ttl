@@ -1,14 +1,14 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
-@prefix its: <http://www.w3.org/2005/11/its> .
+
 @prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
 
-<http://example.com/exampledoc.html#char=0,34> nif:sourceUrl <http://example.com/exampledoc.html> ;
+<http://example.com/exampledoc.html#char=0,34> 
 	nif:isString "This is the contentc'es le contenu" ;
 	a nif:Context .
 
 <http://example.com/exampledoc.html#char=19,23> a nif:RFC5147String ;
-	nif:anchorOf "c'es" ;
+	
 	itsrdf:hasLocQualityIssue _:node17rgq4krrx1 .
 
 _:node17rgq4krrx1 a itsrdf:LocQualityIssue ;
