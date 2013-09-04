@@ -192,29 +192,18 @@ For the conformance testing, each test file in the test suite requires at least 
         &#09;</p>
       
         
-        <p>The
-                NIF test suite has a set of test documents for HTML for the
-            <span>Localisation Quality Issue</span><span class="c4">&#09;data category which are then
-                used to validate the different aspects of ITS 2.0 and NIF against various constructs
-                available to the Localisation Quality Issue data category. There are a total of 11 files
-                only for HTML in the Localisation Quality Issue data category. The input files are located
-                in the</span><span class="c4">&#09;</span>
+        <p>This part of the test suite is used to determine whether ITS 2.0 implementations of NIF 2.0 meet the ITS 2.0 specification standard for NIF usage. The mapping between an XML and HTML document annotated with ITS to and from NIF is not a normative part of the Its2.0 specification. The NIF test suite has a set of test documents for HTML for the 
+            <span>Localisation Quality Issue</span><span class="c4">&#09;data category which is then used to validate the different aspects of ITS 2.0 and NIF against various constructs available to the Localisation Quality Issue data category. There are a total of 11 files only for HTML in the Localisation Quality Issue data category. The input files are located in the </span><span class="c4">&#09;</span>
 		<span class="c4 c6">ITS-2.0-Testsuite/its2.0/nif-conversion/input</span>
             <span class="c4">folder.</span></p>
 
-        <p><span>The validation of the input files is done through processing the input file so that it
-                outputs a file to match a gold standard output file. The gold standard for NIF is RDF output
-                using the ITS 2.0 ontology. The gold standard output for NIF can be reached by following the
-                NIF conversion algorithm discussed in the ITS 2.0 specification located</span>
-            <span><a class="c15" href="http://www.w3.org/TR/its20/#conversion-to-nif">here</a></span><span
+        <p><span>The validation of the input files is done through processing the input file so that it outputs a file to match a gold standard output file. The gold standard for NIF is RDF output using the ITS 2.0 ontology. The gold standard output for NIF can be reached by following the NIF conversion algorithm discussed in the ITS 2.0 specification located </span>
+            <span><a class="c15" href="http://www.w3.org/TR/its20/#conversion-to-nif">http://www.w3.org/TR/its20/#conversion-to-nif</a></span><span
                 class="c4">.</span></p>
 
-        <h3><span>2.1 How gold standard &#09;NIF output is compared to implementors output?</span></h3>
+        <h3><span>2.1 How gold standard &#09;NIF output is compared to implementers output?</span></h3>
 
-        <p><span>The NIF output files are compared via the use of SPARQL queries done over the
-                implementers RDF/NIF output files (.ttl). If the SPARQL queries are successful then the NIF
-                output files are correct and meet the gold standard. The implementer's NIF test output
-                files are located in the ITS-2.0-Testsuite/its2.0/nif-conversion/expected folder.</span></p>
+        <p><span>The NIF output files are compared via the use of SPARQL queries done over the implementers RDF/NIF output files (.ttl). If the SPARQL queries are successful then the NIF output files are correct and meet the gold standard. The implementer’s NIF test output files are located in the ITS-2.0-Testsuite/its2.0/nif-conversion/expected folder.</span></p>
 
         <h3><span>2.2 Validating NIF output files</span></h3>
         <p><span>Prerequisites:</span><span>&#09;Java and Unix Shell</span></p>
