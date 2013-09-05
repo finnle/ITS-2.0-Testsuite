@@ -104,10 +104,10 @@ For the conformance testing, each test file in the test suite requires at least 
 
         <h3><span>1.6 How gold standard output is compared to implementers output?</span></h3>
         <p><span>The conformance test output of a proposed ITS2.0 implementation is located in the folder</span>
-            <span>ITS-2.0-Testsuite/its2.0/</span><span class="c4 c8 c6">outputimplementors</span>.
+            <span>its-2.0-testsuite/its2.0/</span><span class="c4 c8 c6">outputimplementors</span>.
             <span>This</span><span class="c4 c6">&#09;</span><span>can be tested against the gold
                 standard output files located in the</span>
-            <span class="c4 c6">ITS-2.0-Testsuite/its2.0/expected</span>
+            <span class="c4 c6">its-2.0-testsuite/its2.0/expected</span>
             <span>folder. This can be done simply through performing a diff of the implementation’s output files and the corresponding gold standard output files. 
             To automate this process for implementers a test suite dashboard was created which supports the following tasks :</span></p>
 
@@ -143,10 +143,10 @@ For the conformance testing, each test file in the test suite requires at least 
 
         <p><span>To validate the implementers output files the test suite dashboard has to be compiled so
                 that a diff across all files in the</span>
-            <span>ITS-2.0-Testsuite/its2.0/outputimplementors</span>
+            <span>its-2.0-testsuite/its2.0/outputimplementors</span>
             <span class="c4 c8">&#09;folder can be performed </span><span>&#09;</span><span class="c4 c8"
                                                                                       >against the corresponding files in the &#09;gold standard output</span>
-            <span>ITS-2.0-Testsuite/ITS2.0/expected</span><span class="c4 c8">&#09; folder. The test
+            <span>its-2.0-testsuite/its2.0/expected</span><span class="c4 c8">&#09; folder. The test
                 suite dashboard can be compiled by doing the following:</span></p>
 
         <ol>
@@ -159,8 +159,8 @@ For the conformance testing, each test file in the test suite requires at least 
             <li><span>Check the state of your files in the related data categories on this web
                     page:</span>
                 <span><a class="c15"
-                         href="http://htmlpreview.github.com/?https://raw.github.com/finnle/ITS-2.0-Testsuite/master/its2.0/testSuiteDashboard.html">
-                        http://htmlpreview.github.com/?https://raw.github.com/finnle/ITS-2.0-Testsuite/master/its2.0/testSuiteDashboard.html</a></span></li>
+                         href="http://htmlpreview.github.io/?https://raw.github.com/w3c/its-2.0-testsuite/blob/master/its2.0/testSuiteDashboard.html">
+                        http://htmlpreview.github.io/?https://raw.github.com/w3c/its-2.0-testsuite/blob/master/its2.0/testSuiteDashboard.html</a></span></li>
         </ol>
 
         <p><span>The files for the test suite dashboard are as follows:</span></p>
@@ -195,7 +195,7 @@ For the conformance testing, each test file in the test suite requires at least 
         
         <p>This part of the test suite is used to determine whether ITS 2.0 implementations of NIF 2.0 meet the ITS 2.0 specification standard for NIF usage. The mapping between an XML and HTML document annotated with ITS to and from NIF is not a normative part of the Its2.0 specification. The NIF test suite has a set of test documents for HTML for the 
             <span>Localisation Quality Issue</span><span class="c4">&#09;data category which is then used to validate the different aspects of ITS 2.0 and NIF against various constructs available to the Localisation Quality Issue data category. There are a total of 11 files only for HTML in the Localisation Quality Issue data category. The input files are located in the </span><span class="c4">&#09;</span>
-		<span class="c4 c6">ITS-2.0-Testsuite/its2.0/nif-conversion/input</span>
+		<span class="c4 c6">its-2.0-testsuite/its2.0/nif-conversion/input</span>
             <span class="c4">folder.</span></p>
 
         <p><span>The validation of the input files is done through processing the input file so that it outputs a file to match a gold standard output file. The gold standard for NIF is RDF output using the ITS 2.0 ontology. The gold standard output for NIF can be reached by following the NIF conversion algorithm discussed in the ITS 2.0 specification located </span>
@@ -204,7 +204,7 @@ For the conformance testing, each test file in the test suite requires at least 
 
         <h3><span>2.1 How gold standard &#09;NIF output is compared to implementers output?</span></h3>
 
-        <p><span>The NIF output files are compared via the use of SPARQL queries done over the implementers RDF/NIF output files (.ttl). If the SPARQL queries are successful then the NIF output files are correct and meet the gold standard. The implementer’s NIF test output files are located in the ITS-2.0-Testsuite/its2.0/nif-conversion/expected folder.</span></p>
+        <p><span>The NIF output files are compared via the use of SPARQL queries done over the implementers RDF/NIF output files (.ttl). If the SPARQL queries are successful then the NIF output files are correct and meet the gold standard. The implementer’s NIF test output files are located in the its-2.0-testsuite/its2.0/nif-conversion/expected folder.</span></p>
 
         <h3><span>2.2 Validating NIF output files</span></h3>
         <p><span>Prerequisites:</span><span>&#09;Java and Unix Shell</span></p>
