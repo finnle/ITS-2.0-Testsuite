@@ -1,5 +1,4 @@
 Please Note: The test suite is now being hosted by the W3C GitHub located here --> https://github.com/w3c/its-2.0-testsuite 
-
 Internationalization Tag Set (ITS) 2.0 Test Suite
 =================
 
