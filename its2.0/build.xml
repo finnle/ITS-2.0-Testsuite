@@ -29,6 +29,7 @@
     <pathconvert property="jing-cp" refid="jing-cp"/>
     <echo message="${jing-cp}"/>
     <apply executable="java">
+      <arg value="-Xss512k"/>
       <arg value="-cp"/>
       <arg value="${jing-cp}"/>
       <arg value="com.thaiopensource.relaxng.util.Driver"/>
